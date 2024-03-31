@@ -1,0 +1,32 @@
+[
+    {
+        "trading_pair": "IRISUSDT",
+        "symbol": "IRIS",
+        "price": "0.04158000",
+        "time": "2024-03-31 18:04:23"
+    },
+    {
+        "trading_pair": "EPXUSDT",
+        "symbol": "EPX",
+        "price": "0.00040140",
+        "time": "2024-03-31 18:04:23"
+    },
+    {
+        "trading_pair": "AGIXUSDT",
+        "symbol": "AGIX",
+        "price": "1.26516000",
+        "time": "2024-03-31 18:04:23"
+    },
+    {
+        "trading_pair": "LINKDOWNUSDT",
+        "symbol": "LINKDOWN",
+        "price": "0.00089500",
+        "time": "2024-03-31 18:04:23"
+    },
+    {
+        "trading_pair": "DOTUPUSDT",
+        "symbol": "DOTUP",
+        "price": "0.09600000",
+        "time": "2024-03-31 18:04:23"
+    }
+]
