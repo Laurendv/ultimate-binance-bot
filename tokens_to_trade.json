@@ -1,37 +1,67 @@
 [
     {
-        "trading_pair": "SUIUSDT",
-        "symbol": "SUI",
-        "price": "1.89150000",
-        "time": "2024-03-31 19:10:06",
-        "weight": 0.2
+        "trading_pair": "APTUSDT",
+        "symbol": "APT",
+        "price": "16.94760000",
+        "time": "2024-03-31 19:48:08",
+        "weight": 0.2,
+        "lot_size": {
+            "filterType": "LOT_SIZE",
+            "minQty": "0.01000000",
+            "maxQty": "92141578.00000000",
+            "stepSize": "0.01000000"
+        }
     },
     {
-        "trading_pair": "DODOUSDT",
-        "symbol": "DODO",
-        "price": "0.25440000",
-        "time": "2024-03-31 19:10:06",
-        "weight": 0.2
+        "trading_pair": "ILVUSDT",
+        "symbol": "ILV",
+        "price": "140.52000000",
+        "time": "2024-03-31 19:48:08",
+        "weight": 0.2,
+        "lot_size": {
+            "filterType": "LOT_SIZE",
+            "minQty": "0.00100000",
+            "maxQty": "922327.00000000",
+            "stepSize": "0.00100000"
+        }
     },
     {
-        "trading_pair": "ICPUSDT",
-        "symbol": "ICP",
-        "price": "18.07400000",
-        "time": "2024-03-31 19:10:06",
-        "weight": 0.2
+        "trading_pair": "QNTUSDT",
+        "symbol": "QNT",
+        "price": "135.20000000",
+        "time": "2024-03-31 19:48:08",
+        "weight": 0.2,
+        "lot_size": {
+            "filterType": "LOT_SIZE",
+            "minQty": "0.00100000",
+            "maxQty": "922327.00000000",
+            "stepSize": "0.00100000"
+        }
     },
     {
-        "trading_pair": "TROYUSDT",
-        "symbol": "TROY",
-        "price": "0.00344000",
-        "time": "2024-03-31 19:10:06",
-        "weight": 0.2
+        "trading_pair": "DOGEUSDT",
+        "symbol": "DOGE",
+        "price": "0.21846000",
+        "time": "2024-03-31 19:48:08",
+        "weight": 0.2,
+        "lot_size": {
+            "filterType": "LOT_SIZE",
+            "minQty": "1.00000000",
+            "maxQty": "9000000.00000000",
+            "stepSize": "1.00000000"
+        }
     },
     {
-        "trading_pair": "SUPERUSDT",
-        "symbol": "SUPER",
-        "price": "1.31550000",
-        "time": "2024-03-31 19:10:06",
-        "weight": 0.2
+        "trading_pair": "SNXUSDT",
+        "symbol": "SNX",
+        "price": "4.74400000",
+        "time": "2024-03-31 19:48:08",
+        "weight": 0.2,
+        "lot_size": {
+            "filterType": "LOT_SIZE",
+            "minQty": "0.10000000",
+            "maxQty": "90000.00000000",
+            "stepSize": "0.10000000"
+        }
     }
 ]

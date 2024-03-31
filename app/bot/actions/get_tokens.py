@@ -15,12 +15,15 @@ def main():
         json.dump(tokens_to_trade_model(tokens_to_trade, binance_client), f, indent=4)    
     
 def token_model(token, binance_client, time_now):
+    exchange_info = binance_client.get_exchange_info()
+    lot_size_info = get_lot_size_info(token, exchange_info)
     return {
             "trading_pair": token, 
             "symbol": token.split('USDT')[0],
             "price": binance_client.get_symbol_ticker(symbol=token)['price'],
             "time": time_now,
             "weight": calculate_weight(),
+            "lot_size": lot_size_info
             }
     
 def tokens_to_trade_model(tokens, binance_client):
@@ -29,6 +32,14 @@ def tokens_to_trade_model(tokens, binance_client):
     for token in tokens:
         model.append(token_model(token, binance_client, time_now))
     return model
+
+def get_lot_size_info(token, exchange_info):
+    for symbol_info in exchange_info['symbols']:
+        if symbol_info['symbol'] == token:
+            for filter in symbol_info['filters']:
+                if filter['filterType'] == 'LOT_SIZE':
+                    return filter
+    return None
 
 def select_tokens(symbols):
     return random.sample(symbols, 5)
