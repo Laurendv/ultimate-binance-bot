@@ -20,6 +20,7 @@ def token_model(token, binance_client, time_now):
             "symbol": token.split('USDT')[0],
             "price": binance_client.get_symbol_ticker(symbol=token)['price'],
             "time": time_now,
+            "weight": calculate_weight(),
             }
     
 def tokens_to_trade_model(tokens, binance_client):
@@ -32,6 +33,8 @@ def tokens_to_trade_model(tokens, binance_client):
 def select_tokens(symbols):
     return random.sample(symbols, 5)
 
-    
+def calculate_weight():
+    return 0.2
+
 if __name__ == '__main__':
     main()

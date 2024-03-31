@@ -4,34 +4,39 @@
         "symbol": "SUI",
         "price": "1.89150000",
         "time": "2024-03-31 19:10:06",
-        "weight": 0.2
+        "weight": 0.2,
+        "amount_to_invest": 200.0
     },
     {
         "trading_pair": "DODOUSDT",
         "symbol": "DODO",
         "price": "0.25440000",
         "time": "2024-03-31 19:10:06",
-        "weight": 0.2
+        "weight": 0.2,
+        "amount_to_invest": 200.0
     },
     {
         "trading_pair": "ICPUSDT",
         "symbol": "ICP",
         "price": "18.07400000",
         "time": "2024-03-31 19:10:06",
-        "weight": 0.2
+        "weight": 0.2,
+        "amount_to_invest": 200.0
     },
     {
         "trading_pair": "TROYUSDT",
         "symbol": "TROY",
         "price": "0.00344000",
         "time": "2024-03-31 19:10:06",
-        "weight": 0.2
+        "weight": 0.2,
+        "amount_to_invest": 200.0
     },
     {
         "trading_pair": "SUPERUSDT",
         "symbol": "SUPER",
         "price": "1.31550000",
         "time": "2024-03-31 19:10:06",
-        "weight": 0.2
+        "weight": 0.2,
+        "amount_to_invest": 200.0
     }
 ]

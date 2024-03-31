@@ -13,3 +13,11 @@ binance-trading-bot/
 │
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
+
+Steps:
+1. Get the data
+2. Compute allocation
+3. Back test allocation
+4. Order set up
+5. Execution
+6. Post execution validation
