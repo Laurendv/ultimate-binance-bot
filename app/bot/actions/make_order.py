@@ -30,9 +30,12 @@ def main():
         except Exception as e:
             print(f"Error placing order for {symbol}: {e}")
             
+def gets_binance_precision_standard(quantity):
+    return round(quantity, 8)
+
 def calculate_quantity(amount, price, step_size):
     quantity = math.floor((amount / price) / step_size) * step_size
-    return round(quantity, 8)
+    return gets_binance_precision_standard(quantity)
 
 if __name__ == '__main__':
     main()
