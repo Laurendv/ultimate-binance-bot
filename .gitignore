@@ -1,2 +1,5 @@
 .env
 venv
+.spyproject/
+**/__pycache__/
+*.pyc
