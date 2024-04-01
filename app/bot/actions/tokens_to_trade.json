@@ -1,0 +1,32 @@
+[
+    {
+        "symbol": "IRIS",
+        "trading_pair": "IRISUSDT",
+        "market_cap": 68523063.63445334,
+        "percent_change_7d": 9.96787881,
+        "price": "0.04251000",
+        "time": "2024-04-01 01:14:49",
+        "weight": 0.2,
+        "lot_size": {
+            "filterType": "LOT_SIZE",
+            "minQty": "0.10000000",
+            "maxQty": "9000000.00000000",
+            "stepSize": "0.10000000"
+        }
+    },
+    {
+        "symbol": "KMD",
+        "trading_pair": "KMDUSDT",
+        "market_cap": 77120000.80671716,
+        "percent_change_7d": 54.53719442,
+        "price": "0.56480000",
+        "time": "2024-04-01 01:14:49",
+        "weight": 0.2,
+        "lot_size": {
+            "filterType": "LOT_SIZE",
+            "minQty": "1.00000000",
+            "maxQty": "900000.00000000",
+            "stepSize": "1.00000000"
+        }
+    }
+]
